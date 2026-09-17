@@ -1,111 +1,60 @@
-# 🎓 NexLearn AI — AI-Powered Learning Assistant
+﻿# 🎓 NexLearn AI — AI-Powered Learning Assistant
 
-> An intelligent study companion built with React.js, Node.js, and Gemini AI.
-> Developed as a Software Engineering course project.
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js v18+
-- MySQL (optional — app works without it, but auth/history won't persist)
-- A [Google Gemini API Key](https://aistudio.google.com/app/apikey)
+An intelligent study companion built to make learning smarter and faster.  
+**Live Demo:** [nexlearn-ai.vercel.app](https://nexlearn-ai.vercel.app)
 
 ---
 
-## 📁 Project Structure
+## ✨ Key Features
 
-```
-NexLearn/
-├── frontend/     # React + Vite + Tailwind CSS v4
-└── backend/      # Node.js + Express + Sequelize
-```
+- 🎥 **YouTube Summarizer:** Get AI summaries of long video lectures.
+- 📄 **Document AI & Chat:** Summarize and chat directly with your PDFs/Docs.
+- 👨‍🏫 **AI Teacher:** Get clear explanations for any complex topic.
+- 📝 **Smart Notes & Quizzes:** Auto-generate revision notes, MCQs, and flashcards.
+- 🌐 **Bangla Support:** Native language support across all AI features.
 
 ---
 
-## ⚙️ Setup Instructions
+## 🚀 Quick Start (Local Setup)
 
-### 1. Configure the Backend
+**1. Clone the project:**
+``bash
+git clone https://github.com/Riya225-ui/NexLearn.git
+``
 
-Edit `backend/.env`:
-```env
-PORT=5000
-DB_HOST=localhost
-DB_PORT=3306
-DB_NAME=nexlearn_db
-DB_USER=root
-DB_PASSWORD=your_mysql_password
-JWT_SECRET=your_jwt_secret
+**2. Configure Environment:**  
+Create a .env file in the ackend/ folder and add your Gemini API Key:
+``env
 GEMINI_API_KEY=your_gemini_api_key_here
-CLIENT_URL=http://localhost:5173
-```
+``
 
-> **Important:** Replace `your_gemini_api_key_here` with your actual Gemini API key from Google AI Studio.
-
-### 2. Start the Backend
-
-```bash
+**3. Run Backend:**
+``bash
 cd backend
+npm install
 npm run dev
-# Runs at http://localhost:5000
-```
+``
 
-### 3. Start the Frontend
-
-```bash
+**4. Run Frontend:**
+``bash
 cd frontend
+npm install
 npm run dev
-# Runs at http://localhost:5173
-```
-
----
-
-## ✨ Features
-
-| Feature | Description |
-|---|---|
-| 🎥 YouTube Summarizer | Paste a YouTube URL → Get a structured AI summary |
-| 📄 Document AI | Upload PDF/DOCX/PPT/TXT → AI analyzes and summarizes |
-| 👨‍🏫 AI Teacher | Enter any concept → Get a clear, simple explanation |
-| 📝 Smart Notes | Paste content → Auto-generate revision-ready notes |
-| 💬 Chat with Doc | Paste document text → Ask questions in a chat interface |
-| ❓ Quiz Generator | Input study content → Get MCQs, True/False & Short Answer questions |
-| 🃏 Flashcards | Input study content → Get a flip-card deck for active recall |
-| 🌐 Bangla Support | All features support English → Bangla output |
+``
 
 ---
 
 ## 🏗️ Tech Stack
 
-### Frontend
-- **React.js** (Vite)
-- **Tailwind CSS v4**
-- **React Router DOM**
-- **Axios**
-- **Lucide React** (icons)
-- **Framer Motion** + **React Hot Toast**
-
-### Backend
-- **Node.js** + **Express.js**
-- **Sequelize** ORM + **MySQL2**
-- **JWT** + **bcrypt** (authentication)
-- **Multer** (file uploads)
-- **pdf-parse** (PDF text extraction)
-- **@google/genai** (Gemini AI SDK)
+- **Frontend:** React.js, Tailwind CSS, Vite
+- **Backend:** Node.js, Express.js, MySQL (Optional)
+- **AI Core:** Google Gemini API
 
 ---
 
 ## 👥 Team
 
-- Riya Akter — 2022-3-60-176
-- Mehrin Mahabub Kotha — 2022-3-60-284
-- Md. Rayhan Ahamed — 2021-3-60-197
-
----
-
-## 📝 Notes
-
-- The app will run without MySQL, but user auth and chat history won't persist across sessions.
-- YouTube summarization requires the video to have captions/subtitles enabled.
-- File upload limit is 20MB.
+Developed as a Software Engineering course project by:
+- Riya Akter
+- Mehrin Mahabub Kotha
+- Md. Rayhan Ahamed
