@@ -51,10 +51,3 @@ npm run dev
 - **AI Core:** Google Gemini API
 
 ---
-
-## 👥 Team
-
-Developed as a Software Engineering course project by:
-- Riya Akter
-- Mehrin Mahabub Kotha
-- Md. Rayhan Ahamed
