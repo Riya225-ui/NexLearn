@@ -5,17 +5,17 @@ An intelligent study companion built to make learning smarter and faster.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- 🎥 **YouTube Summarizer:** Get AI summaries of long video lectures.
-- 📄 **Document AI & Chat:** Summarize and chat directly with your PDFs/Docs.
-- 👨‍🏫 **AI Teacher:** Get clear explanations for any complex topic.
-- 📝 **Smart Notes & Quizzes:** Auto-generate revision notes, MCQs, and flashcards.
-- 🌐 **Bangla Support:** Native language support across all AI features.
+- **YouTube Summarizer:** Get AI summaries of long video lectures.
+- **Document AI & Chat:** Summarize and chat directly with your PDFs/Docs.
+- **AI Teacher:** Get clear explanations for any complex topic.
+- **Smart Notes & Quizzes:** Auto-generate revision notes, MCQs, and flashcards.
+- **Bangla Support:** Native language support across all AI features.
 
 ---
 
-## 🚀 Quick Start (Local Setup)
+## Quick Start (Local Setup)
 
 **1. Clone the project:**
 ``bash
@@ -44,10 +44,10 @@ npm run dev
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React.js, Tailwind CSS, Vite
-- **Backend:** Node.js, Express.js, MySQL (Optional)
+- **Backend:** Node.js, Express.js, MySQL
 - **AI Core:** Google Gemini API
 
 ---
